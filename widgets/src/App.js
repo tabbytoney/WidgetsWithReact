@@ -15,12 +15,13 @@ const items = [
     title: 'How do you use React?',
     content: 'You use React by creating components'
   }
-]
+];
 
 export default () => {
   return (
     <div>
-      <Accordion items={items}/>
+      <br />
+      <Accordion items={items} />
     </div>
   );
 };
